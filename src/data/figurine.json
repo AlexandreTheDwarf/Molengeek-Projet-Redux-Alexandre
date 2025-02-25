@@ -3,6 +3,7 @@
        "Hundred Kingdoms": {
           "figurines": [
              {
+                "id": 1,
                 "name": "Drillmaster - Hundred Kingdoms",
                 "price": 24.99,
                 "Available" : true,
@@ -23,6 +24,7 @@
                 ]
              },
              {
+                "id": 2,
                 "name": "Mounted Noble Lord - Hundred Kingdoms",
                 "price": 29.99,
                 "Available" : true,
@@ -46,6 +48,7 @@
                 ]
              },
              {
+                "id": 3,
                 "name": "First Blood Warband 2024 - Hundred Kingdoms",
                 "price": 49.99,
                 "Available" : false,
@@ -75,6 +78,7 @@
                 ]
              },
              {
+                "id": 4,
                 "name": "Archangel - Hundred Kingdoms",
                 "price": 129.99,
                 "Available" : true,
@@ -102,6 +106,7 @@
        "W’adrhŭn": {
          "figurines": [
             {
+                "id": 5,
                 "name": "Apex Queen - W’adrhŭn",
                 "price": 24.99,
                 "Available" : true,
@@ -123,6 +128,7 @@
                 ]
              },
              {
+                "id": 6,
                 "name": "Deluxe Hunting Bedrock - W’adrhŭn",
                 "price": 29.99,
                 "Available" : true,
@@ -142,6 +148,7 @@
                 ]
              },
              {
+                "id": 7,
                 "name": "Thunder Riders - W’adrhŭn",
                 "price": 69.99,
                 "Available" : true,
@@ -166,6 +173,7 @@
                 ]
              },
              {
+                "id": 8,
                 "name": "Tontorr - W’adrhŭn",
                 "price": 149.99,
                 "Available" : true,
@@ -194,6 +202,7 @@
        "Dweghom": {
           "figurines": [
             {
+                "id": 9,
                 "name": "Tempered Steelshaper 5th Anniversary Remix - Dweghom",
                 "price": 24.99,
                 "Available" : true,
@@ -216,6 +225,7 @@
                 ]
              },
              {
+                "id": 10,
                 "name": "Hold Ballistae (Dual Kit) - Dweghom",
                 "price": 29.99,
                 "Available" : true,
@@ -239,6 +249,7 @@
                 ]
              },
              {
+                "id": 11,
                 "name": "Initiates (Dual Kit) - Dweghom",
                 "price": 39.99,
                 "Available" : true,
@@ -263,6 +274,7 @@
                 ]
              },
              {
+                "id": 12,
                 "name": "Ironclad Drake - Dweghom",
                 "price": 129.99,
                 "Available" : true,

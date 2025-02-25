@@ -9,9 +9,12 @@ Currently, two official plugins are available:
 
 ## Bibliotheque Utilisée : 
 
-
 ### UUID : 
 
 - UUID : La bibliothèque uuid est utilisée pour générer des identifiants uniques pour chaque figurine ajoutée au panier. Cela garantit que chaque figurine peut être identifiée de manière unique, même si elle a le même nom.
 
 - Ajout de l'identifiant : Lorsqu'une figurine est ajoutée au panier, un identifiant unique est généré et ajouté à l'objet de la figurine.
+
+#### Disclaimer :
+
+pas la bonne approche car crée des id uniques a chaque boite de figurine ajouter et donc le panier se retrouve avec plusieurs lignes avec le meme article ....
