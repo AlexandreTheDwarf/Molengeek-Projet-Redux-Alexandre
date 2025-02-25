@@ -3,35 +3,35 @@ import { createSlice } from "@reduxjs/toolkit";
 export const cartSlice = createSlice({
   name: "cart",
   initialState: {
-    items: [], // Tableau pour stocker les pizzas dans le panier
+    items: [], // Tableau pour stocker les figurines dans le panier
   },
   reducers: {
     addToCart: (state, action) => {
-      const pizza = action.payload;
-      const existingPizza = state.items.find((item) => item.id === pizza.id);
+      const figurine = action.payload;
+      const existingFigurine = state.items.find((item) => item.id === figurine.id);
 
-      if (existingPizza) {
-        existingPizza.quantity += 1;
+      if (existingFigurine) {
+        existingFigurine.quantity += 1;
       } else {
-        state.items.push({ ...pizza, quantity: 1 });
+        state.items.push({ ...figurine, quantity: 1 });
       }
     },
     removeFromCart: (state, action) => {
-      const pizzaId = action.payload;
-      state.items = state.items.filter((item) => item.id !== pizzaId);
+      const figurineId = action.payload;
+      state.items = state.items.filter((item) => item.id !== figurineId);
     },
     incrementQuantity: (state, action) => {
-      const pizzaId = action.payload;
-      const pizza = state.items.find((item) => item.id === pizzaId);
-      if (pizza) {
-        pizza.quantity += 1;
+      const figurineId = action.payload;
+      const figurine = state.items.find((item) => item.id === figurineId);
+      if (figurine) {
+        figurine.quantity += 1;
       }
     },
     decrementQuantity: (state, action) => {
-      const pizzaId = action.payload;
-      const pizza = state.items.find((item) => item.id === pizzaId);
-      if (pizza && pizza.quantity > 1) {
-        pizza.quantity -= 1;
+      const figurineId = action.payload;
+      const figurine = state.items.find((item) => item.id === figurineId);
+      if (figurine && figurine.quantity > 1) {
+        figurine.quantity -= 1;
       }
     },
   },

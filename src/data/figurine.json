@@ -1,0 +1,289 @@
+[
+    {
+       "Hundred Kingdoms": {
+          "figurines": [
+             {
+                "name": "Drillmaster - Hundred Kingdoms",
+                "price": 24.99,
+                "Available" : true,
+                "Box Contents": [
+                   "1 Resin Officer Miniature",
+                   "1 Infantry Base"
+                ],
+                "Product Information": {
+                   "Assembly": false,
+                   "Box size": "7.4x10.4x3.7cm",
+                   "Box weight": "50 grs",
+                   "Material": "Resin"
+                },
+                "Images": [
+                   "/HundredKingdoms/drillmaster/drillmaster1.jpg",
+                   "/HundredKingdoms/drillmaster/drillmaster2.jpg",
+                   "/HundredKingdoms/drillmaster/drillmaster3.jpg"
+                ]
+             },
+             {
+                "name": "Mounted Noble Lord - Hundred Kingdoms",
+                "price": 29.99,
+                "Available" : true,
+                "Box Contents": [
+                   "1 Plastic Character Miniature",
+                   "1 Cavalry Plastic Base and Stand",
+                   "1 Command Card"
+                ],
+                "Product Information": {
+                   "Assembly": false,
+                   "Box size": "10.4x7.4x3.8cm",
+                   "Box weight": "114 grs",
+                   "Material": "Plastic"
+                },
+                "Images": [
+                   "/HundredKingdoms/mounted-noble-lord/mounted-noble-lord1.jpg",
+                   "/HundredKingdoms/mounted-noble-lord/mounted-noble-lord2.jpg",
+                   "/HundredKingdoms/mounted-noble-lord/mounted-noble-lord3.jpg",
+                   "/HundredKingdoms/mounted-noble-lord/mounted-noble-lord4.jpg",
+                   "/HundredKingdoms/mounted-noble-lord/mounted-noble-lord5.jpg"
+                ]
+             },
+             {
+                "name": "First Blood Warband 2024 - Hundred Kingdoms",
+                "price": 49.99,
+                "Available" : false,
+                "Box Contents": [
+                   "4 Hunter Cadre",
+                   "6 Steel Legion",
+                   "1 Order of the Sealed Temple",
+                   "1 Household Knight ",
+                   "1 Drillmaster ",
+                   "1 Imperial Officer ",
+                   "12 Infantry Bases ",
+                   "4 Infantry Stands ",
+                   "2 Cavalry Base and Stand ",
+                   "6 Command Cards ",
+                   "1 First Blood Softcover Quick Start Guide ",
+                   "1 Assembly Instructions "
+                ],
+                "Product Information": {
+                   "Assembly": false,
+                   "Box size": "34x17.5x7.5 cm",
+                   "Box weight": "700 grs",
+                   "Material": "Plastic regiments. Plastic and Resin Characters"
+                },
+                "Images": [
+                   "/HundredKingdoms/first-blood-warband/hundred-kingdoms-first-blood-warband1.jpg",
+                   "/HundredKingdoms/first-blood-warband/hundred-kingdoms-first-blood-warband2.jpg"
+                ]
+             },
+             {
+                "name": "Archangel - Hundred Kingdoms",
+                "price": 129.99,
+                "Available" : true,
+                "Box Contents": [
+                   "1 Plastic Monster Miniature (with alternative heads and weapons)",
+                   "1 Plastic Monster Base and Stand",
+                   "1 Command Card"
+                ],
+                "Product Information": {
+                   "Assembly": false,
+                   "Box size": "30x30x6 cm",
+                   "Box weight": "410 grs",
+                   "Material": "Plastic"
+                },
+                "Images": [
+                   "/HundredKingdoms/first-blood-warband/hundred-kingdoms-first-blood-warband1.jpg",
+                   "/HundredKingdoms/first-blood-warband/hundred-kingdoms-first-blood-warband2.jpg"
+                ]
+             }
+          ]
+       },
+       "W’adrhŭn": {
+         "figurines": [
+            {
+                "name": "Apex Queen - W’adrhŭn",
+                "price": 24.99,
+                "Available" : true,
+                "Box Contents": [
+                   "1 Resin Character Miniature",
+                   " 1 Infantry Plastic Base"
+                ],
+                "Product Information": {
+                   "Assembly": false,
+                   "Box size": "7.4x10.4x3.7cm",
+                   "Box weight": "50 grs",
+                   "Material": "Resin"
+                },
+                "Images": [
+                   "/W’adrhŭn/apexQueen/wadrhun-apex-queen1.jpg",
+                   "/W’adrhŭn/apexQueen/wadrhun-apex-queen2.jpg",
+                   "/W’adrhŭn/apexQueen/wadrhun-apex-queen3.jpg",
+                   "/W’adrhŭn/apexQueen/wadrhun-apex-queen4.jpg"
+                ]
+             },
+             {
+                "name": "Deluxe Hunting Bedrock - W’adrhŭn",
+                "price": 29.99,
+                "Available" : true,
+                "Box Contents": [
+                   "1 Scenic Resin Base for the Tontorr or the Drum Beast",
+                   "6 Hunting Pack to decorate the base"
+                ],
+                "Product Information": {
+                   "Assembly": false,
+                   "Box size": "30x15x6cm",
+                   "Box weight": "300 grs",
+                   "Material": "Resin Base & Plastic Miniatures"
+                },
+                "Images": [
+                   "/W’adrhŭn/huntingBedrock/deluxe-hunting-bedrock-wadrhun1.jpg",
+                   "/W’adrhŭn/huntingBedrock/deluxe-hunting-bedrock-wadrhun2.jpg"
+                ]
+             },
+             {
+                "name": "Thunder Riders - W’adrhŭn",
+                "price": 69.99,
+                "Available" : true,
+                "Box Contents": [
+                   "3 Plastic Miniatures (with the option of making 2 command models) ",
+                   "3 Plastic Cavalry Stands",
+                   "3 Cavalry Bases",
+                   "1 Command Card"
+                ],
+                "Product Information": {
+                   "Assembly": false,
+                   "Box size": "30x15x6cm",
+                   "Box weight": "300 grs",
+                   "Material": "Plastic"
+                },
+                "Images": [
+                   "/W’adrhŭn/thunderRiders/wadrhun-thunder-riders1.jpg",
+                   "/W’adrhŭn/thunderRiders/wadrhun-thunder-riders2.jpg",
+                   "/W’adrhŭn/thunderRiders/wadrhun-thunder-riders3.jpg",
+                   "/W’adrhŭn/thunderRiders/wadrhun-thunder-riders4.jpg",
+                   "/W’adrhŭn/thunderRiders/wadrhun-thunder-riders5.jpg"
+                ]
+             },
+             {
+                "name": "Tontorr - W’adrhŭn",
+                "price": 149.99,
+                "Available" : true,
+                "Box Contents": [
+                   "1 Huge Plastic Monster Miniature",
+                   "3 Crew Miniatures",
+                   "1 Plastic Monster Base and Stand",
+                   "1 Command Card"
+                ],
+                "Product Information": {
+                   "Assembly": false,
+                   "Box size": "27.5x15x24cm",
+                   "Box weight": "800 grs",
+                   "Material": "Plastic"
+                },
+                "Images": [
+                   "/W’adrhŭn/tontorr/wadrhun-tontorr-release1.jpg",
+                   "/W’adrhŭn/tontorr/wadrhun-tontorr-release2.jpg",
+                   "/W’adrhŭn/tontorr/wadrhun-tontorr-release3.jpg",
+                   "/W’adrhŭn/tontorr/wadrhun-tontorr-release4.jpg",
+                   "/W’adrhŭn/tontorr/wadrhun-tontorr-release5.jpg"
+                ]
+             }
+         ]
+       },
+       "Dweghom": {
+          "figurines": [
+            {
+                "name": "Tempered Steelshaper 5th Anniversary Remix - Dweghom",
+                "price": 24.99,
+                "Available" : true,
+                "Box Contents": [
+                   "1 Resin Character Miniature",
+                   "1 Plastic Infantry Base",
+                   "1 Command Card"
+                ],
+                "Product Information": {
+                   "Assembly": false,
+                   "Box size": "7.4x10.4x3.7cm",
+                   "Box weight": "50 grs",
+                   "Material": "Resin"
+                },
+                "Images": [
+                   "/Dweghom/temperedSteelshaper/tempered-steelshaper-5th-anniversary-remix-dweghom1.jpg",
+                   "/Dweghom/temperedSteelshaper/tempered-steelshaper-5th-anniversary-remix-dweghom2.jpg",
+                   "/Dweghom/temperedSteelshaper/tempered-steelshaper-5th-anniversary-remix-dweghom3.jpg",
+                   "/Dweghom/temperedSteelshaper/tempered-steelshaper-5th-anniversary-remix-dweghom4.jpg"
+                ]
+             },
+             {
+                "name": "Hold Ballistae (Dual Kit) - Dweghom",
+                "price": 29.99,
+                "Available" : true,
+                "Box Contents": [
+                   "12 Plastic Miniatures (Hold Warriors/Hold Ballistae, with the option of making their respective command models)",
+                   "3 Plastic Infantry Stands",
+                   "12 Bases",
+                   "2 Command Cards"
+                ],
+                "Product Information": {
+                   "Assembly": false,
+                   "Box size": "30x15x6cm",
+                   "Box weight": "410 grs",
+                   "Material": "Plastic"
+                },
+                "Images": [
+                   "/Dweghom/HoldBallistae/hold-ballistae1.jpg",
+                   "/Dweghom/HoldBallistae/hold-ballistae2.jpg",
+                   "/Dweghom/HoldBallistae/hold-ballistae3.jpg",
+                   "/Dweghom/HoldBallistae/hold-ballistae4.jpg"
+                ]
+             },
+             {
+                "name": "Initiates (Dual Kit) - Dweghom",
+                "price": 39.99,
+                "Available" : true,
+                "Box Contents": [
+                   "12 Plastic Miniatures (Initiates/Wardens, with the option of making their respective command models)",
+                   "3 Plastic Infantry Stands",
+                   "12 Bases",
+                   "2 Command Cards"
+                ],
+                "Product Information": {
+                   "Assembly": false,
+                   "Box size": "30x15x6cm",
+                   "Box weight": "410 grs",
+                   "Material": "Plastic"
+                },
+                "Images": [
+                   "/Dweghom/initiates/dweghom-initiates-dual-kit1.jpg",
+                   "/Dweghom/initiates/dweghom-initiates-dual-kit2.jpg",
+                   "/Dweghom/initiates/dweghom-initiates-dual-kit3.jpg",
+                   "/Dweghom/initiates/dweghom-initiates-dual-kit4.jpg",
+                   "/Dweghom/initiates/dweghom-initiates-dual-kit5.jpg"
+                ]
+             },
+             {
+                "name": "Ironclad Drake - Dweghom",
+                "price": 129.99,
+                "Available" : true,
+                "Box Contents": [
+                   "1 Plastic Monster Miniature",
+                   "1 Plastic Monster Base and Stand",
+                   "1 Command Card"
+                ],
+                "Product Information": {
+                   "Assembly": false,
+                   "Box size": "30x30x6cm",
+                   "Box weight": "300 grs",
+                   "Material": "Plastic"
+                },
+                "Images": [
+                   "/Dweghom/initiates/dweghom-initiates-dual-kit1.jpg",
+                   "/Dweghom/initiates/dweghom-initiates-dual-kit2.jpg",
+                   "/Dweghom/initiates/dweghom-initiates-dual-kit3.jpg",
+                   "/Dweghom/initiates/dweghom-initiates-dual-kit4.jpg",
+                   "/Dweghom/initiates/dweghom-initiates-dual-kit5.jpg"
+                ]
+             }
+         ]
+       }
+    }
+ ]
+ 
