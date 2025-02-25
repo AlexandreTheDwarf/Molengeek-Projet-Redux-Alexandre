@@ -36,10 +36,10 @@ function ShoppingCart() {
           <ul>
             {cartItems.map((item) => (
               <li key={item.id} className='CartItem'>
-                <img src={item.imageUrl} alt={item.name} width="50" />
+                <img src={item.Images[0]} alt={item.name} width="50" />
                 <div className='DivPizza'>
                   <h3>{item.name}</h3>
-                  <p>Prix : €{(item.price * item.quantity).toFixed(2)}</p>
+                  <p>Prix : €{(item.price)}</p>
                   <div className='QuantityControls'>
                     <button onClick={() => handleDecrement(item.id)}>-</button>
                     <span>{item.quantity}</span>
@@ -56,11 +56,9 @@ function ShoppingCart() {
           <p>Total : €{total.toFixed(2)}</p>
         </div>
         {
-        cartItems.length === 0 
-        ? 
-        ""
-        :
-        <Link to="/resume" className='resume'>Finaliser la commande</Link>
+          cartItems.length === 0
+          ? ""
+          : <Link to="/resume" className='resume'>Finaliser la commande</Link>
         }
       </section>
     </MyTemplate>

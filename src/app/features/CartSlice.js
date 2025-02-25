@@ -1,4 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
+import { v4 as uuidv4 } from 'uuid'; // Utiliser uuid pour générer des identifiants uniques
 
 export const cartSlice = createSlice({
   name: "cart",
@@ -13,7 +14,9 @@ export const cartSlice = createSlice({
       if (existingFigurine) {
         existingFigurine.quantity += 1;
       } else {
-        state.items.push({ ...figurine, quantity: 1 });
+        // Ajouter un identifiant unique si la figurine n'en a pas déjà un
+        const figurineWithId = { ...figurine, id: uuidv4(), quantity: 1 };
+        state.items.push(figurineWithId);
       }
     },
     removeFromCart: (state, action) => {
@@ -30,8 +33,12 @@ export const cartSlice = createSlice({
     decrementQuantity: (state, action) => {
       const figurineId = action.payload;
       const figurine = state.items.find((item) => item.id === figurineId);
-      if (figurine && figurine.quantity > 1) {
-        figurine.quantity -= 1;
+      if (figurine) {
+        if (figurine.quantity > 1) {
+          figurine.quantity -= 1;
+        } else {
+          state.items = state.items.filter((item) => item.id !== figurineId);
+        }
       }
     },
   },

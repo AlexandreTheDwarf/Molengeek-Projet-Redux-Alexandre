@@ -1,16 +1,20 @@
 import React from 'react';
 import "./ArticleContainer.scss";
 import ShoppingCard from '../ShoppingCard/ShoppingCard';
-import pizzas from '../../data/pizza.json';
+import figurinesData from '../../data/figurine.json';
 
 function ArticleContainer() {
   return (
     <div className='ArticleContainer'>
-      {pizzas.map((pizza) => (
-        <ShoppingCard
-          key={pizza.id}
-          pizza={pizza} 
-        />
+      {figurinesData.map((category, categoryIndex) => (
+        Object.values(category).map((figurineList, listIndex) => (
+          figurineList.figurines.map((figurine) => (
+            <ShoppingCard
+              key={`${categoryIndex}-${listIndex}-${figurine.name}`}
+              figurine={figurine}
+            />
+          ))
+        ))
       ))}
     </div>
   );

@@ -90,8 +90,11 @@
                    "Material": "Plastic"
                 },
                 "Images": [
-                   "/HundredKingdoms/first-blood-warband/hundred-kingdoms-first-blood-warband1.jpg",
-                   "/HundredKingdoms/first-blood-warband/hundred-kingdoms-first-blood-warband2.jpg"
+                   "/HundredKingdoms/archangel/archangel-hundred-kingdoms1.jpg",
+                   "/HundredKingdoms/archangel/archangel-hundred-kingdoms2.jpg",
+                   "/HundredKingdoms/archangel/archangel-hundred-kingdoms3.jpg",
+                   "/HundredKingdoms/archangel/archangel-hundred-kingdoms4.jpg",
+                   "/HundredKingdoms/archangel/archangel-hundred-kingdoms5.jpg"
                 ]
              }
           ]
@@ -275,11 +278,11 @@
                    "Material": "Plastic"
                 },
                 "Images": [
-                   "/Dweghom/initiates/dweghom-initiates-dual-kit1.jpg",
-                   "/Dweghom/initiates/dweghom-initiates-dual-kit2.jpg",
-                   "/Dweghom/initiates/dweghom-initiates-dual-kit3.jpg",
-                   "/Dweghom/initiates/dweghom-initiates-dual-kit4.jpg",
-                   "/Dweghom/initiates/dweghom-initiates-dual-kit5.jpg"
+                   "/Dweghom/ironclad/ironclad-drake-dweghom1.jpg",
+                   "/Dweghom/ironclad/ironclad-drake-dweghom2.jpg",
+                   "/Dweghom/ironclad/ironclad-drake-dweghom3.jpg",
+                   "/Dweghom/ironclad/ironclad-drake-dweghom4.jpg",
+                   "/Dweghom/ironclad/ironclad-drake-dweghom5.jpg"
                 ]
              }
          ]

@@ -13,7 +13,7 @@ function NavBar() {
   return (
     <nav className='NavBar'>
       <Link to="/" className='DivTitle'>
-        <h1>Allo Pizza</h1>
+        <h1>Conquest Shop</h1>
       </Link>
       <Link to="/cart" className='DivShoppingCart'>
         <p>
