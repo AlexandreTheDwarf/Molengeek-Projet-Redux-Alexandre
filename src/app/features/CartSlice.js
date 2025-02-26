@@ -4,6 +4,8 @@ export const cartSlice = createSlice({
   name: "cart",
   initialState: {
     items: [], // Tableau pour stocker les figurines dans le panier
+    isLoggedIn: true, // État pour gérer la connexion
+    UserName: "LeNain", // État pour stocker le nom d'utilisateur
   },
   reducers: {
     addToCart: (state, action) => {
@@ -38,9 +40,12 @@ export const cartSlice = createSlice({
         }
       }
     },
+    setLoggedIn: (state, action) => {
+      state.isLoggedIn = action.payload;
+    },
   },
 });
 
-export const { addToCart, removeFromCart, incrementQuantity, decrementQuantity } = cartSlice.actions;
+export const { addToCart, removeFromCart, incrementQuantity, decrementQuantity, setLoggedIn } = cartSlice.actions;
 
 export default cartSlice.reducer;

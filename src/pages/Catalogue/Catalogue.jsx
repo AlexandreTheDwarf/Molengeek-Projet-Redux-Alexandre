@@ -1,16 +1,16 @@
 import React from 'react'
-import "./Home.scss"
+import "./Catalogue.scss"
 import MyTemplate from '../../template/MyTemplate'
 import ArticleContainer from '../../components/ArticleContainer/ArticleContainer'
 
-function Home() {
+function Catalogue() {
   return (
     <MyTemplate>
-        <section className='Home'>
-          
+        <section className='Catalogue'>
+          <ArticleContainer/>
         </section>
     </MyTemplate>
   )
 }
 
-export default Home
+export default Catalogue
