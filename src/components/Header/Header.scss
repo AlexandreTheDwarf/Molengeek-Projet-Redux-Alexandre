@@ -18,5 +18,21 @@
 
         text-decoration: none;
         color: black;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logout-btn {
+            cursor: pointer;
+            color: red;
+            margin-left: 10px;
+            font-weight: bold;
+            
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+          
     }
 }

@@ -1,0 +1,114 @@
+.Details{
+    width: 90%;
+    height: 100%;
+
+    margin-top: 5vh;
+
+    display: flex;
+    justify-content: space-evenly;
+
+
+    .DivLeft{
+        width: 40%;
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .ImagePrincipal{
+            width: 100%;
+
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        .ImageSecondaire{
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 2px;
+
+            div{
+                width: 19%;
+                cursor: pointer;
+
+                img{
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+    .DivRight{
+        width: 40%;
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+
+        .Title{
+            width: 100%;
+
+            h1{
+                font-size: 32px;
+            }
+        }
+        .Price{
+            width: 100%;
+            border-top: solid 1px rgb(112, 112, 112);
+            border-bottom: solid 1px rgb(112, 112, 112);
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.5em 0em;
+
+            .PriceRight{
+                font-size: 24px;
+
+                span{
+                    font-size: 16px;
+                    color: gray;
+                }
+            }
+            .PriceLeft{
+                border-top: solid 1px rgb(112, 112, 112);
+                border-bottom: solid 1px rgb(112, 112, 112);
+                padding: 0.25em 0em;
+            }
+        }
+        .BoxDescription{
+            h3{
+                text-decoration: underline;
+            }
+            ul{
+                padding-left: 1em;
+
+                li{
+                    color: gray;
+                }
+            }
+        }
+        .AddCart{
+            width: 30%;
+            height: 15%;
+            background-color: black;
+            color: white;
+
+            padding: 1.5em 0.75em;
+
+            cursor: pointer;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

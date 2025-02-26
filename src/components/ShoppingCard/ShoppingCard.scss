@@ -13,6 +13,7 @@
     .Top{
         width: 100%;
         height: 50%;
+        cursor: pointer;
 
         img{
             width: 100%;
@@ -23,6 +24,11 @@
     .Mid{
         width: 80%;
         height: 20%;
+        cursor: pointer;
+
+        h2{
+            font-size: 22px;
+        }
     }
     .Bot{
         width: 80%;

@@ -3,9 +3,9 @@ import { createSlice } from "@reduxjs/toolkit";
 export const cartSlice = createSlice({
   name: "cart",
   initialState: {
-    items: [], // Tableau pour stocker les figurines dans le panier
-    isLoggedIn: true, // État pour gérer la connexion
-    UserName: "LeNain", // État pour stocker le nom d'utilisateur
+    items: [],
+    isLoggedIn: false,
+    username: "Guest", // Initialiser à "Guest"
   },
   reducers: {
     addToCart: (state, action) => {
@@ -41,11 +41,16 @@ export const cartSlice = createSlice({
       }
     },
     setLoggedIn: (state, action) => {
-      state.isLoggedIn = action.payload;
+      state.isLoggedIn = true;
+      state.username = action.payload; // Mettre à jour le nom d'utilisateur
+    },
+    setLoggedOut: (state) => {
+      state.isLoggedIn = false;
+      state.username = "Ghest"; 
     },
   },
 });
 
-export const { addToCart, removeFromCart, incrementQuantity, decrementQuantity, setLoggedIn } = cartSlice.actions;
+export const { addToCart, removeFromCart, incrementQuantity, decrementQuantity, setLoggedIn, setLoggedOut } = cartSlice.actions;
 
 export default cartSlice.reducer;
