@@ -8,7 +8,7 @@ import Catalogue from './pages/Catalogue/Catalogue';
 import Dweghom from './pages/Factions/Dweghom/Dweghom';
 import HundredKingdoms from './pages/Factions/HundredKingdoms/HundredKingdoms';
 import Wadrhun from './pages/Factions/Wardrhun/Wardrhun';
-import Login from './pages/login/login';
+import Login from './pages/Login/Login';
 import Details from './pages/Details/Details';
 
 function App() {
