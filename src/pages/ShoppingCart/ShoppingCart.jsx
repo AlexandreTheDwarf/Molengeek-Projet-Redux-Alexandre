@@ -4,6 +4,7 @@ import MyTemplate from '../../template/MyTemplate';
 import { Link } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { removeFromCart, incrementQuantity, decrementQuantity } from '../../app/features/CartSlice';
+import { FaRegTrashAlt } from "react-icons/fa";
 
 function ShoppingCart() {
   const dispatch = useDispatch();
@@ -19,6 +20,10 @@ function ShoppingCart() {
 
   const handleRemove = (id) => {
     dispatch(removeFromCart(id));
+  };
+
+  const handleReset = () => {
+    dispatch(resetCart());
   };
 
   // Calculer le total du panier
@@ -44,7 +49,7 @@ function ShoppingCart() {
                     <button onClick={() => handleDecrement(item.id)}>-</button>
                     <span>{item.quantity}</span>
                     <button onClick={() => handleIncrement(item.id)}>+</button>
-                    <button onClick={() => handleRemove(item.id)}>Supprimer</button>
+                    <button onClick={() => handleRemove(item.id)}><FaRegTrashAlt /></button>
                   </div>
                 </div>
               </li>
@@ -58,7 +63,7 @@ function ShoppingCart() {
         {
           cartItems.length === 0
           ? ""
-          : <Link to="/resume" className='resume'>Finaliser la commande</Link>
+          : <Link to="/" className='resume' onClick={() => handleReset()}>Finaliser la commande</Link>
         }
       </section>
     </MyTemplate>

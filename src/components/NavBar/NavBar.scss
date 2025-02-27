@@ -95,3 +95,15 @@
     }
   }
   
+@media (max-width: 600px) {
+    .NavBar{
+      .DivShoppingCart{
+        p{
+          width: 40%;
+          span{
+            right: -100%;
+          }
+        }
+      }
+    }
+}

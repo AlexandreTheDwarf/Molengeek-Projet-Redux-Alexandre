@@ -298,6 +298,104 @@
                 ]
              }
          ]
+       },
+       "OldDominion": {
+          "figurines": [
+            {
+                "id": 13,
+                "name": "Optio - Old Dominion",
+                "price": 24.99,
+                "Available" : true,
+                "Box Contents": [
+                   "1 Resin Officer Miniature",
+                   "1 Infantry Plastic Base"
+                ],
+                "Product Information": {
+                   "Assembly": false,
+                   "Box size": "3.7x7.4x10.4cm",
+                   "Box weight": "114 grs",
+                   "Material": "Resin"
+                },
+                "Images": [
+                   "/OldDominion/Optio/old-dominion-optio.jpg",
+                   "/OldDominion/Optio/old-dominion-optio1.jpg",
+                   "/OldDominion/Optio/old-dominion-optio2.jpg",
+                   "/OldDominion/Optio/old-dominion-optio3.jpg"
+                ]
+             },
+             {
+                "id": 14,
+                "name": "Legionnaires (Dual Kit) - Old Dominion",
+                "price": 39.99,
+                "Available" : true,
+                "Box Contents": [
+                   "12 Plastic Miniatures (Praetorian Guard/Legionnaires, with the option of making their respective command models)",
+                   "3 Infantry Plastic Stands",
+                   "12 Bases",
+                   "2 Command Cards"
+                ],
+                "Product Information": {
+                   "Assembly": false,
+                   "Box size": "30x15x6cm",
+                   "Box weight": "300 grs",
+                   "Material": "Plastic"
+                },
+                "Images": [
+                   "/OldDominion/Legio/the-old-dominion-legionnaires-dual-kit.jpg",
+                   "/OldDominion/Legio/the-old-dominion-legionnaires-dual-kit1.jpg",
+                   "/OldDominion/Legio/the-old-dominion-legionnaires-dual-kit2.jpg"
+                ]
+             },
+             {
+                "id": 15,
+                "name": "Karyatids (Dual kit) - Old Dominion",
+                "price": 49.99,
+                "Available" : true,
+                "Box Contents": [
+                   "3 Plastic Miniatures (Kanephors/Karyatids)",
+                   "3 Brute Plastic Stands",
+                   "3 Brute Bases",
+                   "2 Command Cards"
+                ],
+                "Product Information": {
+                   "Assembly": false,
+                   "Box size": "18x18x9cm",
+                   "Box weight": "410 grs",
+                   "Material": "Plastic"
+                },
+                "Images": [
+                   "/OldDominion/Karyatids/old-dominion-karyatids-dual-kit.jpg",
+                   "/OldDominion/Karyatids/old-dominion-karyatids-dual-kit1.jpg",
+                   "/OldDominion/Karyatids/old-dominion-karyatids-dual-kit2.jpg",
+                   "/OldDominion/Karyatids/old-dominion-karyatids-dual-kit3.jpg",
+                   "/OldDominion/Karyatids/old-dominion-karyatids-dual-kit4.jpg"
+                ]
+             },
+             {
+                "id": 16,
+                "name": "Fallen Divinity Artisan Series - Old Dominion",
+                "price": 139.99,
+                "Available" : false,
+                "Box Contents": [
+                   "1 Resin Monster Miniature",
+                   "1 Plastic Monster Base and Stand",
+                   "1 Command Card"
+                ],
+                "Product Information": {
+                   "Assembly": false,
+                   "Box size": "30x30x6cm",
+                   "Box weight": "300 grs",
+                   "Material": "Resin"
+                },
+                "Images": [
+                   "/OldDominion/FallenDivinity/old-dominion-fallen-divinity-artisan-series.jpg",
+                   "/OldDominion/FallenDivinity/old-dominion-fallen-divinity-artisan-series1.jpg",
+                   "/OldDominion/FallenDivinity/old-dominion-fallen-divinity-artisan-series2.jpg",
+                   "/OldDominion/FallenDivinity/old-dominion-fallen-divinity-artisan-series3.jpg",
+                   "/OldDominion/FallenDivinity/old-dominion-fallen-divinity-artisan-series4.jpg"
+                ]
+             }
+         ]
        }
     }
  ]

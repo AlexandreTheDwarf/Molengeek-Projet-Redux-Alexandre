@@ -112,3 +112,23 @@
         }
     }
 }
+
+@media (max-width: 600px) {
+    .Details{
+        flex-direction: column;
+        align-items: center;
+
+        .DivLeft{
+            width: 80%;
+        }
+
+        .DivRight{
+            width: 80%;
+
+            .AddCart{
+                width: 75%;
+                margin: auto;
+            }
+        }
+    }
+}

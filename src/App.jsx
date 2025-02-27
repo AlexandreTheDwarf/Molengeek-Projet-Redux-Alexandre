@@ -10,6 +10,7 @@ import HundredKingdoms from './pages/Factions/HundredKingdoms/HundredKingdoms';
 import Wadrhun from './pages/Factions/Wardrhun/Wardrhun';
 import Login from './pages/Login/Login';
 import Details from './pages/Details/Details';
+import OldDominion from './pages/Factions/OldDominion/OldDominion';
 
 function App() {
   const router = createBrowserRouter([
@@ -20,6 +21,7 @@ function App() {
     { path: "/factions/dweghom", element: <Dweghom /> },
     { path: "/factions/hundred-kingdoms", element: <HundredKingdoms /> },
     { path: "/factions/wadrhun", element: <Wadrhun /> },
+    { path: "/factions/old-dominion", element: <OldDominion /> },
     { path: "/login", element: <Login /> },
     { path: "/details/:id", element: <Details /> },
     { path: "*", element: <NotFound /> }

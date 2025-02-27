@@ -1,17 +1,17 @@
 import React from 'react';
-import "./Dweghom.scss"
+import "./OldDominion.scss"
 import MyTemplate from '../../../template/MyTemplate';
 import ArticleContainer from '../../../components/ArticleContainer/ArticleContainer';
 
-function Dweghom() {
+function OldDominion() {
   return (
     <MyTemplate>
-      <section className='Dweghom'>
-        <h1>Dweghom</h1>
-        <ArticleContainer category="Dweghom" />
+      <section className='OldDominion'>
+        <h1>Old Dominion</h1>
+        <ArticleContainer category="OldDominion" />
       </section>
     </MyTemplate>
   );
 }
 
-export default Dweghom;
+export default OldDominion;

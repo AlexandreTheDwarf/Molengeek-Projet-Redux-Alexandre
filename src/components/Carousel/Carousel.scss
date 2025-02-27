@@ -11,6 +11,7 @@
   
       .carousel-item {
         display: none;
+        cursor: pointer;
   
         &.active {
           display: block;

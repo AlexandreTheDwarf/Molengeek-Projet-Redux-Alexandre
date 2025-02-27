@@ -1,5 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit";
 
+const VALID_USERNAME = "admin";
+const VALID_PASSWORD = "password123";
+
 export const cartSlice = createSlice({
   name: "cart",
   initialState: {
@@ -41,16 +44,25 @@ export const cartSlice = createSlice({
       }
     },
     setLoggedIn: (state, action) => {
-      state.isLoggedIn = true;
-      state.username = action.payload; // Mettre à jour le nom d'utilisateur
+      const { username, password } = action.payload;
+      if (username === VALID_USERNAME && password === VALID_PASSWORD) {
+        state.isLoggedIn = true;
+        state.username = username;
+      } else {
+        console.log("Mauvais mot de passe");
+      }
     },
     setLoggedOut: (state) => {
       state.isLoggedIn = false;
-      state.username = "Ghest"; 
+      state.username = "Guest";
+    },
+    resetCart: (state, action) => {
+      state.items = []
     },
   },
 });
 
-export const { addToCart, removeFromCart, incrementQuantity, decrementQuantity, setLoggedIn, setLoggedOut } = cartSlice.actions;
+export const { addToCart, removeFromCart, incrementQuantity, decrementQuantity, setLoggedIn, setLoggedOut, resetCart } = cartSlice.actions;
 
 export default cartSlice.reducer;
+

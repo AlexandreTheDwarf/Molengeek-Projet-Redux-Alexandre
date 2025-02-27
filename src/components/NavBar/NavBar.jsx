@@ -37,6 +37,7 @@ function NavBar() {
                 <li><Link to="/factions/dweghom">Dweghom</Link></li>
                 <li><Link to="/factions/hundred-kingdoms">Hundred Kingdoms</Link></li>
                 <li><Link to="/factions/wadrhun">W'adrhun</Link></li>
+                <li><Link to="/factions/old-dominion">Old Dominion</Link></li>
               </ul>
             )}
           </li>

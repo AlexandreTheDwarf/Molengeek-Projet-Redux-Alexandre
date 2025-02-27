@@ -1,18 +1,18 @@
 import { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import figurinesData from '../../data/figurine.json';
-import './Carousel.scss'; 
+import './Carousel.scss';
 
 function Carousel() {
   const [index, setIndex] = useState(0);
   const [figurines, setFigurines] = useState([]);
+  const navigate = useNavigate();
 
   useEffect(() => {
-    // Flatten the figurines array from all categories
     const allFigurines = figurinesData.flatMap(category =>
       Object.values(category).flatMap(group => group.figurines)
     );
 
-    // Shuffle the array and select the first four figurines
     const shuffled = allFigurines.sort(() => 0.5 - Math.random());
     const selectedFigurines = shuffled.slice(0, 4);
 
@@ -29,6 +29,10 @@ function Carousel() {
     setIndex(newIndex);
   };
 
+  const handleFigurineClick = (figurineId) => {
+    navigate(`/details/${figurineId}`);
+  };
+
   return (
     <div className="carousel">
       <div className="carousel-inner">
@@ -36,6 +40,7 @@ function Carousel() {
           <div
             key={idx}
             className={`carousel-item ${index === idx ? 'active' : ''}`}
+            onClick={() => handleFigurineClick(figurine.id)}
           >
             <img
               className="carousel-image"
@@ -60,4 +65,3 @@ function Carousel() {
 }
 
 export default Carousel;
-
