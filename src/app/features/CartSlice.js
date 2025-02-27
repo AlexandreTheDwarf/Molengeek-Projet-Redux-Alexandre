@@ -56,7 +56,7 @@ export const cartSlice = createSlice({
       state.isLoggedIn = false;
       state.username = "Guest";
     },
-    resetCart: (state, action) => {
+    resetCart: (state) => {
       state.items = []
     },
   },

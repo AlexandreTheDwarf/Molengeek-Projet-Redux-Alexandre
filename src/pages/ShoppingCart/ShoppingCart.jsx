@@ -1,13 +1,14 @@
 import React from 'react';
 import "./ShoppingCart.scss";
 import MyTemplate from '../../template/MyTemplate';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
-import { removeFromCart, incrementQuantity, decrementQuantity } from '../../app/features/CartSlice';
+import { removeFromCart, incrementQuantity, decrementQuantity, resetCart } from '../../app/features/CartSlice';
 import { FaRegTrashAlt } from "react-icons/fa";
 
 function ShoppingCart() {
   const dispatch = useDispatch();
+  const navigate = useNavigate();
   const cartItems = useSelector((state) => state.cart.items);
 
   const handleIncrement = (id) => {
@@ -24,9 +25,9 @@ function ShoppingCart() {
 
   const handleReset = () => {
     dispatch(resetCart());
+    navigate('/');
   };
 
-  // Calculer le total du panier
   const total = cartItems.reduce((accumulator, item) => {
     return accumulator + item.price * item.quantity;
   }, 0);
@@ -60,11 +61,9 @@ function ShoppingCart() {
           <Link to="/" className='Modify'>Modifier la commande</Link>
           <p>Total : €{total.toFixed(2)}</p>
         </div>
-        {
-          cartItems.length === 0
-          ? ""
-          : <Link to="/" className='resume' onClick={() => handleReset()}>Finaliser la commande</Link>
-        }
+        {cartItems.length > 0 && (
+          <button className='resume' onClick={handleReset}>Finaliser la commande</button>
+        )}
       </section>
     </MyTemplate>
   );
