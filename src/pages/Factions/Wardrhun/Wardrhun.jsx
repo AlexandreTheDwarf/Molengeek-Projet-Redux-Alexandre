@@ -7,7 +7,7 @@ function Wardrhun() {
   return (
     <MyTemplate>
       <section className='Wardrhun'>
-        <h1>W’adrhŭn Page</h1>
+        <h1>W’adrhŭn</h1>
         <ArticleContainer category="Wadrhun" />
       </section>
     </MyTemplate>

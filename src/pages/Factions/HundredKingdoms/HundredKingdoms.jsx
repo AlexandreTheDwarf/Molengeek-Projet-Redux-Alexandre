@@ -7,7 +7,7 @@ function HundredKingdoms() {
   return (
     <MyTemplate>
       <section className='HundredKingdoms'>
-        <h1>Hundred Kingdoms Page</h1>
+        <h1>Hundred Kingdoms</h1>
         <ArticleContainer category="HundredKingdoms" />
       </section>
     </MyTemplate>
