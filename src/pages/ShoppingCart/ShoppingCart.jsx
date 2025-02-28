@@ -57,10 +57,12 @@ function ShoppingCart() {
             ))}
           </ul>
         )}
+        {cartItems.length > 0 && (
         <div className='DivTotalCart'>
           <Link to="/" className='Modify'>Modifier la commande</Link>
           <p>Total : €{total.toFixed(2)}</p>
         </div>
+        )}
         {cartItems.length > 0 && (
           <button className='resume' onClick={handleReset}>Finaliser la commande</button>
         )}

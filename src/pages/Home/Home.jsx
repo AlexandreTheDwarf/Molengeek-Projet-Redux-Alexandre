@@ -18,7 +18,7 @@ function Home() {
           <div className="Overlay"></div>
           <Carousel/>
           <div className='LoreDiv'>
-            The world of Conquest is a new and complete fantasy experience, built on the foundations of rich lore and deep, realistic history and bringing fresh and mature takes on beloved, old tropes. With distinct species and civilizations connected by an entangled history, entwined motives and clashing goals, it is devised from conception to support rich storytelling and different narrative styles and gaming experiences. 
+            <p>The world of Conquest is a new and complete fantasy experience, built on the foundations of rich lore and deep, realistic history and bringing fresh and mature takes on beloved, old tropes. With distinct species and civilizations connected by an entangled history, entwined motives and clashing goals, it is devised from conception to support rich storytelling and different narrative styles and gaming experiences. </p>
           </div>
         </section>
     </MyTemplate>
