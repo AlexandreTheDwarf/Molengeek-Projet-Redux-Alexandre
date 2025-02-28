@@ -1,3 +1,14 @@
+@font-face {
+  font-family: 'Augusta';
+  src: url('/assets/fonts/Augusta.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'GothBallCrap';
+  src: url('/assets/fonts/GothBallCrap.ttf') format('truetype');
+}
+
+
 body{
   width: 100vw;
   min-height: 100vh;
@@ -14,5 +25,5 @@ body{
 
   background-color:ghostwhite;
 
-  font-family: "Hanalei Fill", serif;
+  font-family: "Augusta", serif;
 }
