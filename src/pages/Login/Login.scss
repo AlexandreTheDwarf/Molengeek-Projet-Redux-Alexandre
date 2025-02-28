@@ -26,7 +26,6 @@
       align-items: center;
       width: 100%;
       max-width: 400px;
-
   
       div {
         margin-bottom: 1.5rem;
@@ -71,3 +70,20 @@
     }
   }
   
+
+@media (max-width: 600px) {
+  .Login{
+    width: 90%;
+    padding-bottom: 2em;
+    form{
+      div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        input{
+          width: 90%;
+        }
+      }
+    }
+  }
+}

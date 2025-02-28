@@ -57,10 +57,11 @@
 
        .LoreDiv{
         width: 90%;
-        font-size: 16px;
-        color: black;
-        text-align: center;
-        margin-bottom: 5%;
+        p{
+            font-size: 16px;
+            text-align: center;
+            margin-bottom: 5%;
+        }
        }
       .bg-video{
             display: none;
