@@ -46,6 +46,7 @@ function Carousel() {
               className="carousel-image"
               src={figurine.Images[0]}
               alt={`Slide ${idx + 1}`}
+              data-aos="fade-right"
             />
             <div className="carousel-caption">
               <h3>{figurine.name}</h3>

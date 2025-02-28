@@ -15,9 +15,9 @@ function OldDominion() {
             </video>
           </div>
           <div className="Overlay"></div>
-        <h1>Old Dominion</h1>
-        <img src="/separator.png" alt="" className='separator'/>
-        <p>Few, if any, have ever truly understood what happened to Hazlia when he Fell. What is known is that Humanity’s Allfather fell into the prison of Death – but was not stopped. And, like those sworn to him in life, Hazlia returned, as did his Dominion.</p>
+        <h1 data-aos="zoom-out-down">Old Dominion</h1>
+        <img src="/separator.png" alt="" className='separator' data-aos="zoom-out-down"/>
+        <p data-aos="fade-down">Few, if any, have ever truly understood what happened to Hazlia when he Fell. What is known is that Humanity’s Allfather fell into the prison of Death – but was not stopped. And, like those sworn to him in life, Hazlia returned, as did his Dominion.</p>
         <ArticleContainer category="OldDominion" />
       </section>
     </MyTemplate>

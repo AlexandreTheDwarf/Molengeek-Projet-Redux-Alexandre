@@ -28,7 +28,7 @@ function Details() {
   return (
     <MyTemplate>
       <section className='Details'>
-        <div className='DivLeft'>
+        <div className='DivLeft' data-aos="fade-up-right">
           <div className='ImagePrincipal'>
             <img src={imagePrincipale} alt={figurine.name} />
           </div>
@@ -40,7 +40,7 @@ function Details() {
             ))}
           </div>
         </div>
-        <div className='DivRight'>
+        <div className='DivRight' data-aos="fade-up-left">
           <div className='Title'>
             <h1>{figurine.name}</h1>
           </div>

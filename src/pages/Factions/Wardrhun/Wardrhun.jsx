@@ -15,9 +15,9 @@ function Wardrhun() {
             </video>
           </div>
           <div className="Overlay"></div>
-        <h1>W’adrhŭn</h1>
-        <img src="/separator.png" alt="" className='separator'/>
-        <p>Tailored to wage war and tamers of the wildest beasts the world has ever known, the budding civilization of the tribes of the W’adrhŭn is claiming its stake in the world – and they have the means to do so.</p>
+        <h1 data-aos="zoom-out-down">W’adrhŭn</h1>
+        <img src="/separator.png" alt="" className='separator' data-aos="zoom-out-down"/>
+        <p data-aos="fade-down">Tailored to wage war and tamers of the wildest beasts the world has ever known, the budding civilization of the tribes of the W’adrhŭn is claiming its stake in the world – and they have the means to do so.</p>
         <ArticleContainer category="Wadrhun" />
       </section>
     </MyTemplate>

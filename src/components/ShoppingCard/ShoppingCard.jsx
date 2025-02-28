@@ -33,7 +33,7 @@ function ShoppingCard({ figurine }) {
   };
 
   return (
-    <div className='ShoppingCard'>
+    <div className='ShoppingCard' data-aos="zoom-in">
       <div
         className='Top'
         onMouseEnter={handleMouseEnter}

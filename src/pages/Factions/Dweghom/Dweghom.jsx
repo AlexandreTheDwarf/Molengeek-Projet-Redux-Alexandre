@@ -15,9 +15,9 @@ function Dweghom() {
             </video>
           </div>
           <div className="Overlay"></div>
-        <h1>Dweghom</h1>
-        <img src="/separator.png" alt="" className='separator'/>
-        <p>With souls and bodies shaped by Fire, Earth and War, the Dweghom have driven the Dragons to extinction and broken the world to become masters of their own destiny – just to then disagree on what that destiny should be…</p>
+        <h1 data-aos="zoom-out-down">Dweghom</h1>
+        <img src="/separator.png" alt="" className='separator' data-aos="zoom-out-down"/>
+        <p data-aos="fade-down">With souls and bodies shaped by Fire, Earth and War, the Dweghom have driven the Dragons to extinction and broken the world to become masters of their own destiny – just to then disagree on what that destiny should be…</p>
         <ArticleContainer category="Dweghom" />
       </section>
     </MyTemplate>

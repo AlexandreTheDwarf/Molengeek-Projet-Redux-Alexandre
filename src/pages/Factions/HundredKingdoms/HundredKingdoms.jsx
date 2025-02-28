@@ -15,9 +15,9 @@ function HundredKingdoms() {
             </video>
           </div>
           <div className="Overlay"></div>
-        <h1>Hundred Kingdoms</h1>
-        <img src="/separator.png" alt="" className='separator'/>
-        <p>Forged by descendants of the refugee masses of the Old Dominion, the Hundred Kingdoms stand divided in borders, but united as a bastion of humanity’s spirit, grit and honor.</p>
+        <h1 data-aos="zoom-out-down">Hundred Kingdoms</h1>
+        <img src="/separator.png" alt="" className='separator' data-aos="zoom-out-down"/>
+        <p data-aos="fade-down">Forged by descendants of the refugee masses of the Old Dominion, the Hundred Kingdoms stand divided in borders, but united as a bastion of humanity’s spirit, grit and honor.</p>
         <ArticleContainer category="HundredKingdoms" />
       </section>
     </MyTemplate>
