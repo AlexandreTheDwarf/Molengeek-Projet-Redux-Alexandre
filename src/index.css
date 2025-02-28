@@ -1,8 +1,10 @@
 body{
-  width: 99.1vw;
+  width: 100vw;
   min-height: 100vh;
   margin: 0;
   padding: 0;
+
+  overflow-x: hidden;
   
   display: flex;
   flex-direction: column;
@@ -10,5 +12,5 @@ body{
 
   user-select: none;
 
-  background-color: gainsboro;
+  background-color:ghostwhite;
 }
