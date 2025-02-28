@@ -9,4 +9,6 @@ body{
   align-items: center;
 
   user-select: none;
+
+  background-color: gainsboro;
 }

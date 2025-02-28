@@ -9,5 +9,58 @@
 
     h1{
         font-size: 32px;
+        color: antiquewhite;
+        margin-bottom: 0.5em;
     }
+
+    p{
+        width: 50%;
+        color: antiquewhite;
+        font-size: 20px;
+
+        text-align: center;
+    }
+
+    .bg-video {
+        position: absolute;
+        z-index: -5;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    
+        .VideoBackground {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+  
+      .Overlay {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: rgba(0, 0, 0, 0.7); /* Effet d'assombrissement */
+          z-index: -1; /* Juste au-dessus de la vidéo */
+        }
+}
+
+@media (max-width: 600px) {
+  .Wardrhun{
+    h1{
+      color: black;
+    }
+    p{
+      display: none;
+    }
+    .bg-video{
+          display: none;
+      }
+    .Overlay{
+          display: none;
+      }
+  }
 }
